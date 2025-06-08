@@ -1409,14 +1409,25 @@ MOBILE RESPONSIVENESS ↓
         margin-bottom: 0px;
         line-height: 1.5;
     }
+    .header__email--input {
+        position: unset;
+    }
     .header__customers {
         margin-top: 16px;
         padding-right: 0;
         opacity: 0.5;
         width: 100%;
     }
+    .header__customers--title {
+        font-size: 14px;
+        letter-spacing: 0.05em;
+        margin-top: 48px;
+    }
     .header__img--wrapper {
         width: 100%;
+    }
+    .header__img {
+        margin-top: 48px;
     }
     h1 {
         font-size: 30px;
